@@ -1,40 +1,53 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
-}
 body{
-    background: #eee0d0;
-    color: #0000007e;
+    margin: 40px auto;
+    max-width: 1000px;
+    line-height: 1.6;
+    font-size: 18px;
+    color: #444;
+    font-family: monospace;
+    background: #ebdcccd5;
 }
-.container{
-    padding: 10px 10%;
-    height: 100px;
+
+main{
+    margin: 0 auto;
+    background-color: #eee0d000;
+    width: 80%;
+    border-radius: 10px;
+    max-width: 650px;
 }
 
 h2{
     color: black;
     line-height: 50px;
-}
-
-header{
-    color:rgb(0, 0, 0);
-    padding:15px 15px 0 15px;
+    text-align: center;
 
 }
-header h1{
-    margin:0;
-    display:inline;
- }
 
-nav{ 
-    margin:0;
-    float:right;
+.links-container {
+    text-align: center; /* Center align the links */
 }
-nav ul li{
-    display:inline-block;
-    list-style:none;
-    padding:5px 15px;
-    
+
+.links-container a {
+    display: inline-block; /* Display links inline-block to align them horizontally */
+    line-height: 50px; /* Set line height */
+    margin-right: 20px; /* Add right margin between the links if needed */
+    text-decoration: none; /* Remove underline from links */
+    color: #2201dd; /* Set link color */
+}
+
+.links-container a:last-child {
+    margin-right: 0; /* Remove margin from the last link */
+}
+
+.experience {
+    margin: 0;
+}
+
+.position {
+    margin: 0;
+}
+
+.position h4,
+.position h5 {
+    margin: 0;
 }
